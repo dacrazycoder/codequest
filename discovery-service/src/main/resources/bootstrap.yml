@@ -3,4 +3,4 @@ spring:
         name: discovery-service
     cloud:
         config:
-            uri: http://localhost:1337           
+            uri: http://127.0.0.1:1337           

@@ -1,3 +1,24 @@
 spring:
     application:
         name: config-server
+    
+--- # Dev Config
+spring:   
+    profiles: development     
+    cloud:
+        config:
+            server:
+                git:
+                    uri: https://github.com/dacrazycoder/codequest-config.git             
+                    searchPaths: MASTER                       
+
+--- # Local Config
+spring:        
+    profiles: local
+    cloud:
+        config:
+            server:
+              git:
+                uri: file:///C:\Users\Shane.Pettit\OneDrive - SITA\Developer\Internz\codequest\codequest-config       
+                searchPaths: MASTER
+        

@@ -2,11 +2,3 @@
 # their external configurations
 server:
     port: 1337
- 
-spring:
-    cloud:
-        config:
-            server:
-                git:
-                    uri: https://github.com/dacrazycoder/codequest-config.git
-                    searchPaths: MASTER

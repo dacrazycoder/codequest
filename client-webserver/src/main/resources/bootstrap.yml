@@ -1,6 +1,6 @@
 spring:
     application:
-        name: edge-server
+        name: client-web-server
     cloud:
         config:
             uri: http://127.0.0.1:1337       
