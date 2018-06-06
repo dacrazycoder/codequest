@@ -1,7 +1,7 @@
 # Defines the port where the config server is running so that rest of the services can pick up
 # their external configurations
 server:
-    port: 9090
+    port: 1337
  
 spring:
     cloud:
